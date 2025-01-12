@@ -6,8 +6,8 @@
    let item2 = 299
 
    let total = console.log(item1+item2)
-   let discount = console.log((item1+item2)*0.8)
-   let average = console.log((item1+item2)/2)
+   let discount = console.log(((item1+item2)*0.8).toFixed(1))
+   let average = console.log((((item1+item2)*0.8)/2).toFixed(1))
 
 
    // 將攝氏溫度轉換為華氏溫度
